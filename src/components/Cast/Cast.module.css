@@ -1,0 +1,34 @@
+.List {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-top: -10px;
+  padding: 20px 10px;
+}
+
+.ListItem {
+  margin-left: 10px;
+  margin-top: 10px;
+
+  flex-basis: calc(100% / 8 - 10px);
+
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.Image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Name {
+  text-align: center;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.Thumb {
+  height: 206px;
+}

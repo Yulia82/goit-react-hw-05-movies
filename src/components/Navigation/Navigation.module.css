@@ -1,0 +1,23 @@
+.Navigation {
+  /* //   background-color: #282c34; */
+  /* min-height: 100vh; */
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.Item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.NavLink {
+  margin-right: 20px;
+  color: var(--main-color);
+}
+
+.NavLink-active {
+  color: var(--accent-color);
+}
